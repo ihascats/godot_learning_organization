@@ -13,22 +13,29 @@ _global_script_classes=[ {
 "class": "GitAPI",
 "language": "NativeScript",
 "path": "res://addons/godot-git-plugin/git_api.gdns"
+}, {
+"base": "Resource",
+"class": "SpellBase",
+"language": "GDScript",
+"path": "res://scenes/spells/spell_base.gd"
 } ]
 _global_script_class_icons={
-"GitAPI": ""
+"GitAPI": "",
+"SpellBase": ""
 }
 
 [application]
 
 config/name="Godot Learning Organization"
+run/main_scene="res://scenes/Main.tscn"
 config/icon="res://icon.png"
 
 [display]
 
 window/size/width=320
 window/size/height=160
-window/size/test_width=1920
-window/size/test_height=1080
+window/size/test_width=960
+window/size/test_height=540
 window/vsync/use_vsync=false
 window/stretch/mode="2d"
 window/stretch/aspect="keep"

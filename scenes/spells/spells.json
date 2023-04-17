@@ -1,0 +1,10 @@
+{
+  "spell_list": [
+    {
+      "name": "fireball",
+      "id": 0,
+      "damage": 3,
+      "collision_area": 4
+    }
+  ]
+}

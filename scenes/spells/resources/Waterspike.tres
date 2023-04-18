@@ -38,4 +38,5 @@ frames = SubResource( 6 )
 id = 1
 damage = 4
 collision_radius = 8
-speed = 200
+speed = 300
+gravity_scale = 0
